@@ -2,7 +2,7 @@ class SparseMatrix:
     def __init__(self, file_path=None, num_rows=None, num_cols=None):
         self.num_rows = num_rows
         self.num_cols = num_cols
-        self.elements = {}  # Dictionary to store non-zero elements
+        self.elements = {} 
         
         if file_path:
             self.read_from_file(file_path)
